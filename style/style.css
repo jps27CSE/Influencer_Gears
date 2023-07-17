@@ -163,6 +163,11 @@
   letter-spacing: 0.252px;
 }
 
+.collection_product img {
+  width: 100%;
+  margin: auto;
+}
+
 /* responsive section */
 /* mobile view */
 
