@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn_primary {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 41px;
+  background: #e02c6d;
+  display: inline-flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  border: 0;
+}
+
+.heading_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.nav_items {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.nav_items a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.nav_items li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.heading_title {
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.heading_container {
+  display: flex;
+  width: auto;
+  align-items: center;
+}
+
+.heading_main_title {
+  width: 38%;
+  margin: auto;
+}
+
+.heading_main_title .heading_main_text {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 134.615% */
+}
+
+.heading_main_title .heading_main_paragraph {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.heading_main_image_section {
+  background-image: url("../assets/images/Circle\ design.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  margin-top: 20px;
+  margin-right: 100px;
+}
