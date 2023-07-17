@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 .btn_primary {
@@ -160,4 +161,86 @@
   font-weight: 700;
   line-height: 143%; /* 20.02px */
   letter-spacing: 0.252px;
+}
+
+/* responsive section */
+/* mobile view */
+
+@media screen and (max-width: 576px) {
+  .heading_navbar {
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+  }
+
+  .heading_title {
+    /* padding: 20px; */
+    margin: auto;
+  }
+
+  .nav_items {
+    flex-direction: column;
+    width: 50%;
+    /* margin: auto; */
+
+    /* display: flex; */
+    margin-left: 60px;
+  }
+
+  .heading_container {
+    flex-direction: column-reverse;
+
+    margin-bottom: 30px;
+  }
+  .heading_main_title {
+    width: 38%;
+    margin: auto;
+    width: 100%;
+  }
+
+  .heading_main_title .heading_main_text {
+    color: #3a3a3a;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .heading_main_title .heading_main_paragraph {
+    text-align: center;
+    margin: auto;
+  }
+
+  .heading_main_image_section {
+    background-image: none;
+    margin: auto;
+  }
+
+  .heading_main_image_section img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .heading_main_title .btn_primary {
+    margin-left: 120px;
+    margin-top: 20px;
+  }
+
+  .brand_logo_container {
+    flex-direction: column;
+  }
+
+  .collection_product_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .collection_product {
+    width: 90%;
+    margin: auto;
+  }
+  .collection_product img {
+    width: 100%;
+    margin: auto;
+  }
 }
